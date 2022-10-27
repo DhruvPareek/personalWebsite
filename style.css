@@ -1,0 +1,24 @@
+
+/* setting text to center*/
+
+div.a{
+    font-family: Courier New;
+    text-align: center;
+}
+
+div.b{
+    font-family: Times New Roman;
+    text-align: left;
+    border: 6px solid blue;
+    Padding: 10px;
+    margin: 280px;
+}
+
+
+/* picture formatting*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
