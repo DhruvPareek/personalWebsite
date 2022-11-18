@@ -1,6 +1,7 @@
 
 /* setting text to center*/
 
+
 div.a{
     font-family: Courier New;
     text-align: center;
@@ -12,6 +13,7 @@ div.b{
     border: 6px solid gray;
     Padding: 10px;
     margin: 280px;
+    background: linear-gradient(#d2b5e8, #9198e5);
 }
 
 
@@ -21,4 +23,28 @@ div.b{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+nav{
+  display: flex;
+  padding: 5%, 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links{
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.nav-links ul li a{
+  font-size: 16px;
 }
