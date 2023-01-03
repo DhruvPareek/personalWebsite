@@ -32,37 +32,50 @@ margin-right: auto;
 width: 50%;
 }
 
-nav{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
+/* setting text to center*/
+* {
+  box-sizing: border-box;
+}
+
+div.a{
   font-family: Georgia, serif;
-  }
-  
-  .nav-links{
-  flex: 1;
-  padding: 10px;
   text-align: center;
-  list-style: none;
-  
-  }
-  
-  .nav-links ul li{
-  display: inline-block;
-  position: relative;
-  background-color: rgb(212, 212, 212);
-  }
-  
-  .nav-links ul li a{
-  display: block;
-  padding: 10px 10px;
-  transition: all 0.3s ease 0s;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-  background-color: rgb(179, 179, 179);
-  }
+}
+
+
+nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-family: Georgia, serif;
+font-size: 18px;
+}
+
+.nav-links{
+flex: 1;
+padding: 10px 0px;
+text-align: center;
+list-style: none;
+
+}
+
+.nav-links ul li{
+display: inline-block;
+position: relative;
+}
+
+.nav-links ul li a{
+padding: 10px 30px;
+transition: all 0.3s ease 0s;
+text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.nav-links li a:hover {
+background-color: rgb(179, 179, 179);
+}
+
 
 
 div.books{
