@@ -33,37 +33,36 @@ width: 50%;
 }
 
 nav{
-display: flex;
-padding: 5%, 5%;
-justify-content: space-between;
-align-items: center;
-font-family: Georgia, serif;
-}
-
-.nav-links{
-flex: 1;
-padding: 10px;
-text-align: center;
-background-color: rgba(255, 255, 255, 0);
-}
-
-.nav-links ul li{
-list-style: none;
-display: inline-block;
-padding: 5px 8px;
-position: relative;
-background-color: #dddddde1;
-}
-
-.nav-links ul li a{
-display: block;
-padding: 5px;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-background-color: rgb(255, 255, 255);
-}
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Georgia, serif;
+  }
+  
+  .nav-links{
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  list-style: none;
+  
+  }
+  
+  .nav-links ul li{
+  display: inline-block;
+  position: relative;
+  background-color: rgb(212, 212, 212);
+  }
+  
+  .nav-links ul li a{
+  display: block;
+  padding: 10px 10px;
+  transition: all 0.3s ease 0s;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+  background-color: rgb(179, 179, 179);
+  }
 
 
 div.books{
